@@ -4,22 +4,21 @@ verify_ssl = true
 name = "pypi"
 
 [requires]
-python_version = "3.10"  # Change this if using a different version
+python_version = "3.12"
 
 [packages]
-websocket-client = "*"
-websockets = "*"
-python-binance = "*"
-binance = "*"
-pandas = "*"
-tqdm = "*"
-bybit = "*"
-json5 = "*"
-brotli = "*"
-urllib3 = "*"
-six = "*"
-bravado = "*"
-bravado-core = "*"
+websocket-client = "==1.8.0"
+websockets = "==15.0"
+python-binance = "==1.0.27"
+pandas = "==1.5.3"
+tqdm = "==4.64.1"
+bybit = "==1.1.3"
+json5 = "==0.9.11"
+brotli = "==1.0.9"
+urllib3 = "==1.26.14"
+six = "==1.16.0"
+bravado = "==11.0.3"
+bravado-core = "==5.17.1"
 
 [dev-packages]
 
